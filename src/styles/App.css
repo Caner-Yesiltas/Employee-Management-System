@@ -2,15 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    @apply text-[125%]
+html {
+  @apply text-[125%];
 }
 
-
-
-
 body {
-  @apply bg-green-300 w-1/3 mx-auto
+  @apply bg-blue-300 w-1/3 mx-auto
 
     /* @apply -> Lets us use Tailwind classes inside CSS. Makes writing CSS easier */
   
