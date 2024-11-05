@@ -10,7 +10,7 @@ html{
 
 
 body {
-  @apply bg-slate-500 w-1/3 mx-auto
+  @apply bg-green-300 w-1/3 mx-auto
 
     /* @apply -> Lets us use Tailwind classes inside CSS. Makes writing CSS easier */
   
