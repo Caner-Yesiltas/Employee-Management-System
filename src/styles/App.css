@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    @apply text-[125%]
+}
+
+
+
+
+body {
+  @apply bg-slate-500 w-1/3 mx-auto
+
+    /* @apply -> Lets us use Tailwind classes inside CSS. Makes writing CSS easier */
+  
+/* w-1/3 -> Takes one third of screen width. Example: If screen is 300px, this takes 100px.
+  Other examples: w-1/2 (half), w-2/3 (two thirds), w-1/4 (quarter) */;
+}
