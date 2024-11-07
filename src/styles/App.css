@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 html {
-  @apply text-[125%];
+  @apply text-[125%] lg:text-[125%] md:text-[100%] sm:text-[90%] text-[80%];
 }
+
+
 
 body {
   background-image: url(../assets/background-image.avif);
-}
 
-body {
-  @apply bg-blue-300 w-1/3 mx-auto
+  @apply bg-blue-300 w-1/3 mx-auto w-[95%] sm:w-[90%] md:w-[80%] lg:w-1/2 xl:w-1/3 
   
 
     /* @apply -> Lets us use Tailwind classes inside CSS. Makes writing CSS easier */
@@ -23,3 +23,5 @@ body {
 .error-modal {
   @apply fixed top-1/4 left-0 flex justify-center mx-auto w-full z-50;
 }
+
+

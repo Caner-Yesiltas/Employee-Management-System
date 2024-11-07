@@ -14,7 +14,7 @@ const ErrorModal = (props) => {
           {props.error.message}
         </section>
         <footer className='p-4 flex justify-center bg-green-300 rounded-xl'>
-          <Button className='w-20'> OK </Button>
+          <Button className='w-20' onClick={props.onConfirm} > OK </Button>
         </footer>
       </Card>
     </div>

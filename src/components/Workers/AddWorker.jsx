@@ -34,7 +34,9 @@ const AddWorker = ({ setWorkers }) => {
     ]);
     console.log(enteredWorkerName, enteredWAGE);
   };
-  const errorHandler = () => {};
+  const errorHandler = () => {
+    seterror(null);
+  };
   return (
     <div>
       {error && <ErrorModal onConfirm={errorHandler} error={error} />}
@@ -62,7 +64,7 @@ const AddWorker = ({ setWorkers }) => {
           />
           <Button className='mt-3' type='submit'>
             Add
-          </Button>
+          </Button   >
         </form>
       </Card>
     </div>
