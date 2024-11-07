@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Card from '../UI/Card';
 import Button from '../UI/Button';
+import ErrorModal from '../UI/ErrorModal';
 
 const AddWorker = ({ setWorkers }) => {
   const [enteredWorkerName, setEnteredWorkerName] = useState('');
@@ -42,7 +43,7 @@ const AddWorker = ({ setWorkers }) => {
     setEnteredWage('');
     setWorkers((prevState) => [
       {
-        id:Math.floor(Math.random() *1000),
+        id: Math.floor(Math.random() * 1000),
         name: enteredWorkerName,
         wage: enteredWAGE,
       },
@@ -53,6 +54,8 @@ const AddWorker = ({ setWorkers }) => {
   };
 
   return (
+    <div> 
+      <ErrorModal/>
     <Card addClass='mt-10 bg-blue-500'>
       <form className='flex flex-col gap-y-2' onSubmit={addWorkerHandler}>
         <label htmlFor='name' className='font-medium'>
@@ -82,6 +85,7 @@ const AddWorker = ({ setWorkers }) => {
         </Button>
       </form>
     </Card>
+    </div>
   );
 };
 
