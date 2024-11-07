@@ -7,7 +7,12 @@ html {
 }
 
 body {
+  background-image: url(../assets/background-image.avif);
+}
+
+body {
   @apply bg-blue-300 w-1/3 mx-auto
+  
 
     /* @apply -> Lets us use Tailwind classes inside CSS. Makes writing CSS easier */
   
@@ -15,7 +20,6 @@ body {
   Other examples: w-1/2 (half), w-2/3 (two thirds), w-1/4 (quarter) */;
 }
 
-
-.error-modal{
-@apply fixed top-1/4 left-0 flex justify-center mx-auto w-full z-50 
+.error-modal {
+  @apply fixed top-1/4 left-0 flex justify-center mx-auto w-full z-50;
 }

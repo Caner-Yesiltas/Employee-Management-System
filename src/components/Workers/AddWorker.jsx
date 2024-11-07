@@ -6,15 +6,21 @@ const AddWorker = ({ setWorkers }) => {
   const [enteredWorkerName, setEnteredWorkerName] = useState('');
   const [enteredWAGE, setEnteredWage] = useState('');
   const [error, seterror] = useState();
-  const minimumWage = 5000;
+  const minimumWage = 100;
   const addWorkerHandler = (e) => {
     e.preventDefault();
     if (enteredWorkerName.trim().length === 0) {
-      seterror({});
+      seterror({
+        title: 'Name is required',
+        message: 'Please type your name!',
+      });
       return;
     }
     if (+enteredWAGE < minimumWage) {
-      return;
+      seterror({
+        title: 'Salary field is required',
+        message: `Please enter a salary amount greater than ${minimumWage}!`,
+      });
     }
     setEnteredWorkerName('');
     setEnteredWage('');
