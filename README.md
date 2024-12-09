@@ -34,7 +34,7 @@ A modern and efficient employee management application built with React and Tail
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/employee-management.git
+git clone https://github.com/caneryesiltas/employee-management.git
 
 # Navigate to project directory
 cd employee-management
