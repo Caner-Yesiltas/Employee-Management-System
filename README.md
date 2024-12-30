@@ -1,5 +1,9 @@
-# Employee Management System 👥
 
+<div align="center">
+ <h1> 
+# Employee Management System 👥
+ </h1>
+</div>
 <div align="center">
   <h2>
     👉 <a href="https://employee-management-system-three-jade.vercel.app/">Live Demo</a> 👈
