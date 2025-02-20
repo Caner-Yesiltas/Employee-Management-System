@@ -115,5 +115,5 @@ Project Link: [https://employee-management-system-three-jade.vercel.app/](https:
 ---
 
 <div align="center">
-  Made with ❤️ by Caner Yesiltas
+  Made with by Caner Yesiltas
 </div>
