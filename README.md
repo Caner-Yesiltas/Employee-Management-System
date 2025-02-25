@@ -1,7 +1,7 @@
 
 <div align="center">
  <h1> 
-# Employee Management System 👥
+# Employee Management System 📈 
  </h1>
 </div>
 <div align="center">
@@ -115,5 +115,5 @@ Project Link: [https://employee-management-system-three-jade.vercel.app/](https:
 ---
 
 <div align="center">
-  Made with by Caner Yesiltas
+  Made with 📈  by Caner Yesiltas
 </div>
